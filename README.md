@@ -1,2 +1,2 @@
-# <AlexRekish.github.io>
+<AlexRekish.github.io>
 Верстка макета Sedona
