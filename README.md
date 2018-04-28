@@ -1,2 +1,1 @@
-<AlexRekish.github.io>
-Верстка макета Sedona
+[Верстка макета Sedona] (AlexRekish.github.io/Sedona)
