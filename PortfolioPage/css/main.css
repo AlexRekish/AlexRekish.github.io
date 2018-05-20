@@ -547,10 +547,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page-header {
-  background-image: -webkit-gradient(linear, left top, right top, from(transparent), to(#47036F)), url("../img/code@1x.jpg");
-  background-image: -webkit-linear-gradient(left, transparent, #47036F), url("../img/code@1x.jpg");
-  background-image: -o-linear-gradient(left, transparent, #47036F), url("../img/code@1x.jpg");
-  background-image: linear-gradient(to right, transparent, #47036F), url("../img/code@1x.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(transparent), to(#47036F)), url("./img/code@1x.jpg");
+  background-image: -webkit-linear-gradient(left, transparent, #47036F), url("./img/code@1x.jpg");
+  background-image: -o-linear-gradient(left, transparent, #47036F), url("./img/code@1x.jpg");
+  background-image: linear-gradient(to right, transparent, #47036F), url("./img/code@1x.jpg");
   background-repeat: no-repeat;
   background-position: right bottom, 0% 50%;
   -webkit-background-size: 30% 100%, cover;
@@ -563,10 +563,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-resolution: 144px), (-webkit-min-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
   .page-header {
-    background-image: -webkit-gradient(linear, left top, right top, from(transparent), to(#47036F)), url("../img/code@2x.jpg");
-    background-image: -webkit-linear-gradient(left, transparent, #47036F), url("../img/code@2x.jpg");
-    background-image: -o-linear-gradient(left, transparent, #47036F), url("../img/code@2x.jpg");
-    background-image: linear-gradient(to right, transparent, #47036F), url("../img/code@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(transparent), to(#47036F)), url("./img/code@2x.jpg");
+    background-image: -webkit-linear-gradient(left, transparent, #47036F), url("./img/code@2x.jpg");
+    background-image: -o-linear-gradient(left, transparent, #47036F), url("./img/code@2x.jpg");
+    background-image: linear-gradient(to right, transparent, #47036F), url("./img/code@2x.jpg");
   }
 }
 
@@ -667,10 +667,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 1360px) {
   .page-header {
-    background-image: -webkit-gradient(linear, left top, right top, from(transparent), to(#47036F)), url("../img/code@0,75x.jpg");
-    background-image: -webkit-linear-gradient(left, transparent, #47036F), url("../img/code@0,75x.jpg");
-    background-image: -o-linear-gradient(left, transparent, #47036F), url("../img/code@0,75x.jpg");
-    background-image: linear-gradient(to right, transparent, #47036F), url("../img/code@0,75x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(transparent), to(#47036F)), url("./img/code@0,75x.jpg");
+    background-image: -webkit-linear-gradient(left, transparent, #47036F), url("./img/code@0,75x.jpg");
+    background-image: -o-linear-gradient(left, transparent, #47036F), url("./img/code@0,75x.jpg");
+    background-image: linear-gradient(to right, transparent, #47036F), url("./img/code@0,75x.jpg");
     -webkit-background-size: 40% 100%, cover;
             background-size: 40% 100%, cover;
   }
@@ -678,10 +678,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 1360px) and (min-resolution: 144px), (max-width: 1360px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 1360px) and (-o-min-device-pixel-ratio: 3/2), (max-width: 1360px) and (min-resolution: 1.5dppx) {
   .page-header {
-    background-image: -webkit-gradient(linear, left top, right top, from(transparent), to(#47036F)), url("../img/code@1,5x.jpg");
-    background-image: -webkit-linear-gradient(left, transparent, #47036F), url("../img/code@1,5x.jpg");
-    background-image: -o-linear-gradient(left, transparent, #47036F), url("../img/code@1,5x.jpg");
-    background-image: linear-gradient(to right, transparent, #47036F), url("../img/code@1,5x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(transparent), to(#47036F)), url("./img/code@1,5x.jpg");
+    background-image: -webkit-linear-gradient(left, transparent, #47036F), url("./img/code@1,5x.jpg");
+    background-image: -o-linear-gradient(left, transparent, #47036F), url("./img/code@1,5x.jpg");
+    background-image: linear-gradient(to right, transparent, #47036F), url("./img/code@1,5x.jpg");
   }
 }
 
@@ -700,10 +700,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 992px) {
   .page-header {
-    background-image: -webkit-gradient(linear, left top, right top, from(transparent), to(#47036F)), url("../img/code@0,5x.jpg");
-    background-image: -webkit-linear-gradient(left, transparent, #47036F), url("../img/code@0,5x.jpg");
-    background-image: -o-linear-gradient(left, transparent, #47036F), url("../img/code@0,5x.jpg");
-    background-image: linear-gradient(to right, transparent, #47036F), url("../img/code@0,5x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(transparent), to(#47036F)), url("./img/code@0,5x.jpg");
+    background-image: -webkit-linear-gradient(left, transparent, #47036F), url("./img/code@0,5x.jpg");
+    background-image: -o-linear-gradient(left, transparent, #47036F), url("./img/code@0,5x.jpg");
+    background-image: linear-gradient(to right, transparent, #47036F), url("./img/code@0,5x.jpg");
     -webkit-background-size: 40% 100%, cover;
             background-size: 40% 100%, cover;
   }
@@ -711,10 +711,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 992px) and (min-resolution: 144px), (max-width: 992px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 992px) and (-o-min-device-pixel-ratio: 3/2), (max-width: 992px) and (min-resolution: 1.5dppx) {
   .page-header {
-    background-image: -webkit-gradient(linear, left top, right top, from(transparent), to(#47036F)), url("../img/code@1x.jpg");
-    background-image: -webkit-linear-gradient(left, transparent, #47036F), url("../img/code@1x.jpg");
-    background-image: -o-linear-gradient(left, transparent, #47036F), url("../img/code@1x.jpg");
-    background-image: linear-gradient(to right, transparent, #47036F), url("../img/code@1x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(transparent), to(#47036F)), url("./img/code@1x.jpg");
+    background-image: -webkit-linear-gradient(left, transparent, #47036F), url("./img/code@1x.jpg");
+    background-image: -o-linear-gradient(left, transparent, #47036F), url("./img/code@1x.jpg");
+    background-image: linear-gradient(to right, transparent, #47036F), url("./img/code@1x.jpg");
   }
 }
 
