@@ -414,6 +414,8 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  position: relative;
+  z-index: 100;
 }
 
 .btn:hover, .btn:focus {
@@ -1809,23 +1811,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contacts-list__item:nth-child(1)::before {
-  background-image: url("../../img/logo/icon-telephone.svg");
+  background-image: url("../img/logo/icon-telephone.svg");
 }
 
 .contacts-list__item:nth-child(2)::before {
-  background-image: url("../../img/logo/icon-email.svg");
+  background-image: url("../img/logo/icon-email.svg");
 }
 
 .contacts-list__item:nth-child(3)::before {
-  background-image: url("../../img/logo/icon-skype.svg");
+  background-image: url("../img/logo/icon-skype.svg");
 }
 
 .contacts-list__item:nth-child(4)::before {
-  background-image: url("../../img/logo/icon-telegram.svg");
+  background-image: url("../img/logo/icon-telegram.svg");
 }
 
 .contacts-list__item:nth-child(5)::before {
-  background-image: url("../../img/logo/icon-facebook.svg");
+  background-image: url("../img/logo/icon-facebook.svg");
 }
 
 .contacts-list__link {
@@ -1909,6 +1911,7 @@ h1, h2, h3, h4, h5, h6 {
           justify-content: center;
   padding: 50px;
   padding-bottom: 100px;
+  padding-top: 150px;
   min-height: 50vh;
   position: relative;
   overflow: hidden;
@@ -1923,8 +1926,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
 }
 
-.skills__triangle {
-  fill: #47036F;
+.skills__triangle--back {
+  fill: #595959;
 }
 
 .skills__header {
@@ -2066,6 +2069,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 1200px) {
+  .skills {
+    padding-top: 125px;
+  }
   .skills__header {
     font-size: 40px;
     line-height: 50px;
@@ -2080,10 +2086,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .skills {
     padding: 50px 20px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills {
     background-position: 50% 0, 50% -1%;
     -webkit-background-size: cover, 75%;
             background-size: cover, 75%;
@@ -2255,10 +2266,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .my-works__work-link {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
@@ -2279,6 +2290,9 @@ h1, h2, h3, h4, h5, h6 {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  position: relative;
+  z-index: 100;
+  min-width: 150px;
 }
 
 .my-works__work-link:hover {
