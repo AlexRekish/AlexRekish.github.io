@@ -763,8 +763,6 @@ main {
   .be-in-touch__label {
     font-size: 14px;
     line-height: 18px;
-  }
-  .be-in-touch__label:not(:last-child) {
     margin-bottom: 25px;
   }
   .be-in-touch__checkbox-wrapper {
@@ -772,7 +770,7 @@ main {
   }
   .be-in-touch__email-wrapper {
     width: 100%;
-    padding: 45px 0;
+    padding: 10px 0 40px 0;
   }
   .be-in-touch__email {
     width: 50%;
@@ -1099,7 +1097,7 @@ main {
   display: block;
   width: 116px;
   height: 34px;
-  background-image: url("../../img/logo/btn-googleplay@3x.png");
+  background-image: url("../img/logo/btn-googleplay@3x.png");
   background-position: center;
   background-size: contain;
 }
