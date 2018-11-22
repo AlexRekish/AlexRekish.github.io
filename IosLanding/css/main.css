@@ -981,6 +981,19 @@ main {
   background-color: #2879ff;
 }
 
+.screenshots__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .screenshots__title {
   color: #fff;
   font-size: 26px;
@@ -998,18 +1011,37 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
   height: 279px;
+  width: 328px;
   overflow: hidden;
 }
 
+.screenshots__img-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  transition: -webkit-transform 0.2s ease;
+  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+}
+
 .screenshots__screenshot {
-  display: none;
+  visibility: hidden;
   max-height: 100%;
   width: 328px;
 }
 
 .screenshots__screenshot--active {
-  display: block;
+  visibility: visible;
 }
 
 .screenshots__active-indicator {
@@ -1063,12 +1095,13 @@ main {
         -ms-flex-pack: center;
             justify-content: center;
     height: 400px;
+    width: 100%;
   }
   .screenshots__active-indicator {
     display: none;
   }
   .screenshots__screenshot {
-    display: block;
+    visibility: visible;
     width: 472px;
   }
 }
@@ -1451,6 +1484,8 @@ main {
   }
   .android-reviews__reviewer-ava {
     opacity: 0.5;
+    -webkit-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease;
   }
   .android-reviews__reviewer-ava--mob {
     display: none;
