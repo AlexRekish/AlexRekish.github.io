@@ -25,14 +25,10 @@
   <body class="isHome">
     <header class="page-header"><a class="logo__wrapper" href="https://golos.io" target="_blank" rel="noreferrer"><img class="logo__img" src="img/logo/logo.svg" alt="Golos.io" width="28" height="30">
         <p class="logo">Golos</p></a>
-      <div class="page-header__l10n">
-        <ul class="page-header__l10n-list" tabindex="0">
-          <li class="page-header__l10n-item page-header__l10n-item--active page-header__l10n-item--active-close">
-            <button class="page-header__l10n-button" type="button">RU</button>
-          </li>
-          <li class="page-header__l10n-item">
-            <button class="page-header__l10n-button" type="button">EN</button>
-          </li>
+      <div class="page-header__l10n" tabindex="0">
+        <p class="page-header__l10n-active">RU</p>
+        <ul class="page-header__l10n-list">
+          <li class="page-header__l10n-item"><a class="page-header__l10n-locale" href="#">EN</a></li>
         </ul>
       </div>
     </header>
@@ -156,18 +152,56 @@
         <div class="android-reviews__container">
           <div class="android-reviews__img-wrapper"><img class="android-reviews__img" src="img/android-reviews.svg" alt=""></div>
           <div class="android-reviews__wrapper">
-            <div class="android-reviews__review">
-              <h2 class="android-reviews__title">Oтзывы android приложения</h2>
-              <div class="android-reviews__review-header"><img class="android-reviews__reviewer-ava android-reviews__reviewer-ava--mob" src="img/logo/active-a.svg" alt="" width="30">
-                <p class="android-reviews__review-author">Anton Lis</p>
-                <div class="android-reviews__review-stars"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14">
+            <h2 class="android-reviews__title">Oтзывы android приложения</h2>
+            <button class="android-reviews__next-review android-reviews__next-review--mob" type="button"><span class="visually-hidden">Следующий отзыв</span></button>
+            <div class="android-reviews__review-wrapper">
+              <div class="android-reviews__review-container">
+                <div class="android-reviews__reviews-carousel">
+                  <div class="android-reviews__review android-reviews__review--active">
+                    <div class="android-reviews__review-header"><img class="android-reviews__reviewer-ava android-reviews__reviewer-ava--mob" src="img/logo/active-a.svg" alt="" width="30">
+                      <p class="android-reviews__review-author">Anton Lis</p>
+                      <div class="android-reviews__review-stars"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14">
+                      </div>
+                    </div>
+                    <p class="android-reviews__review-text">Интересное приложение) пока еще не полностью разобралсяв нем но это действительно чтото новое чего еще небыло на просторах интернета))</p>
+                  </div>
+                  <div class="android-reviews__review">
+                    <div class="android-reviews__review-header"><img class="android-reviews__reviewer-ava android-reviews__reviewer-ava--mob" src="img/logo/active-a.svg" alt="" width="30">
+                      <p class="android-reviews__review-author">Marat Azimov</p>
+                      <div class="android-reviews__review-stars"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14">
+                      </div>
+                    </div>
+                    <p class="android-reviews__review-text">Только сегодня узнал об этом проекте. Очень понравилось сразу. Наконец-то появилось что-то новое, похоже, наверно, на фейс, но более продвинутое. Класс!</p>
+                  </div>
+                  <div class="android-reviews__review">
+                    <div class="android-reviews__review-header"><img class="android-reviews__reviewer-ava android-reviews__reviewer-ava--mob" src="img/logo/active-a.svg" alt="" width="30">
+                      <p class="android-reviews__review-author">Роман Коротков</p>
+                      <div class="android-reviews__review-stars"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14">
+                      </div>
+                    </div>
+                    <p class="android-reviews__review-text">Огромная мотивация для творчества и тонны интересной информации)</p>
+                  </div>
+                  <div class="android-reviews__review">
+                    <div class="android-reviews__review-header"><img class="android-reviews__reviewer-ava android-reviews__reviewer-ava--mob" src="img/logo/active-a.svg" alt="" width="30">
+                      <p class="android-reviews__review-author">Тень Дьявола</p>
+                      <div class="android-reviews__review-stars"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14">
+                      </div>
+                    </div>
+                    <p class="android-reviews__review-text">Это серьезная платформа, у которой есть будущее. Спасибо разработчикам за приложение.</p>
+                  </div>
+                  <div class="android-reviews__review">
+                    <div class="android-reviews__review-header"><img class="android-reviews__reviewer-ava android-reviews__reviewer-ava--mob" src="img/logo/active-a.svg" alt="" width="30">
+                      <p class="android-reviews__review-author">Сергей Бабик</p>
+                      <div class="android-reviews__review-stars"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14"><img class="android-reviews__review-star" src="img/logo/icon-star.svg" alt="Звезда рейтинга" width="14" height="14">
+                      </div>
+                    </div>
+                    <p class="android-reviews__review-text">Пока что лучшее, что попадалось.</p>
+                  </div>
                 </div>
-                <button class="android-reviews__next-review android-reviews__next-review--mob" type="button"><span class="visually-hidden">Следующий отзыв</span></button>
               </div>
-              <p class="android-reviews__review-text">Интересное приложение) пока еще не полностью разобралсяв нем но это действительно чтото новое чего еще небыло на просторах интернета))</p>
             </div>
           </div>
-          <div class="android-reviews__reviewers"><img class="android-reviews__reviewer-ava android-reviews__reviewer-ava--active" src="img/logo/active-a.svg" alt="" width="30"><img class="android-reviews__reviewer-ava" src="img/logo/active-m-a@3x.png" alt="" width="30"><img class="android-reviews__reviewer-ava" src="img/logo/active-r-p.svg" alt="" width="30"><img class="android-reviews__reviewer-ava" src="img/logo/active-t-d@3x.png" alt="" width="30"><img class="android-reviews__reviewer-ava" src="img/logo/active-c-p.svg" alt="" width="30">
+          <div class="android-reviews__reviewers"><img class="android-reviews__reviewer-ava android-reviews__reviewer-ava--desk android-reviews__reviewer-ava--active" src="img/logo/active-a.svg" alt="" width="30"><img class="android-reviews__reviewer-ava android-reviews__reviewer-ava--desk" src="img/logo/active-m-a@3x.png" alt="" width="30"><img class="android-reviews__reviewer-ava android-reviews__reviewer-ava--desk" src="img/logo/active-r-p.svg" alt="" width="30"><img class="android-reviews__reviewer-ava android-reviews__reviewer-ava--desk" src="img/logo/active-t-d@3x.png" alt="" width="30"><img class="android-reviews__reviewer-ava android-reviews__reviewer-ava--desk" src="img/logo/active-c-p.svg" alt="" width="30">
             <button class="android-reviews__next-review android-reviews__next-review--desk" type="button"><span class="visually-hidden">Следующий отзыв</span></button>
           </div>
         </div>
