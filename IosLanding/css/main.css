@@ -835,7 +835,7 @@ main {
 
 @media (min-width: 1088px) {
   .steps {
-    padding: 50px 40px 30px 40px;
+    padding: 100px 40px 70px 40px;
   }
   .steps__step {
     padding-bottom: 0;
@@ -867,7 +867,7 @@ main {
 
 @media (min-width: 1280px) {
   .steps {
-    padding: 50px 255px 30px 255px;
+    padding: 100px 255px 70px 255px;
   }
   .steps__container {
     max-width: 1280px;
@@ -933,7 +933,7 @@ main {
     display: -ms-flexbox;
     display: flex;
     max-width: 1088px;
-    padding: 50px 40px;
+    padding: 100px 40px;
     margin: 0 auto;
   }
   .about-golos__wrapper {
@@ -972,7 +972,7 @@ main {
 @media (min-width: 1280px) {
   .about-golos {
     max-width: 1280px;
-    padding: 50px 154px;
+    padding: 100px 154px;
   }
 }
 
@@ -1043,7 +1043,7 @@ main {
 
 @media (min-width: 1088px) {
   .screenshots {
-    padding: 50px 0 55px 0;
+    padding: 80px 0 85px 0;
   }
   .screenshots__container {
     max-width: 1088px;
@@ -1150,7 +1150,7 @@ main {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 50px 0;
+    padding: 100px 0;
     max-width: 310px;
   }
   .android__title {
@@ -1364,7 +1364,7 @@ main {
         -ms-flex-direction: row;
             flex-direction: row;
     margin: 0 auto;
-    padding: 50px 40px;
+    padding: 55px 40px 75px 40px;
     max-width: 1088px;
   }
   .android-reviews__img-wrapper {
@@ -1385,6 +1385,7 @@ main {
     padding: 45px 0 35px 0;
     font-size: 34px;
     line-height: 40px;
+    max-width: 100%;
   }
   .android-reviews__review-wrapper {
     position: relative;
@@ -1406,7 +1407,7 @@ main {
   .android-reviews__review-wrapper::after {
     display: block;
     position: absolute;
-    bottom: 0;
+    bottom: 16px;
     right: -50px;
     content: "";
     width: 40px;
@@ -1446,7 +1447,7 @@ main {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 25px 0 0 70px;
+    padding: 31px 0 0 70px;
   }
   .android-reviews__reviewer-ava {
     opacity: 0.5;
@@ -1471,7 +1472,7 @@ main {
 
 @media (min-width: 1280px) {
   .android-reviews__container {
-    padding: 50px 96px;
+    padding: 55px 96px 75px 96px;
     max-width: 1280px;
   }
 }
