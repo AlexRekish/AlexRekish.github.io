@@ -1483,6 +1483,34 @@ main {
             align-items: center;
     padding: 31px 0 0 70px;
   }
+  .android-reviews__ava-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .android-reviews__carousel-button {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .android-reviews__carousel-button:not(:nth-child(5)) {
+    padding: 8px 0;
+  }
+  .android-reviews__carousel-button:first-child {
+    padding: 0 0 8px 0;
+  }
+  .android-reviews__carousel-button:nth-child(5) {
+    padding: 8px 0 16px 0;
+  }
   .android-reviews__reviewer-ava {
     opacity: 0.5;
     -webkit-transition: opacity 0.2s ease;
@@ -1490,15 +1518,6 @@ main {
   }
   .android-reviews__reviewer-ava--mob {
     display: none;
-  }
-  .android-reviews__reviewer-ava:not(:nth-child(5)) {
-    padding: 8px 0;
-  }
-  .android-reviews__reviewer-ava:first-child {
-    padding: 0 0 8px 0;
-  }
-  .android-reviews__reviewer-ava:nth-child(5) {
-    padding: 8px 0 16px 0;
   }
   .android-reviews__reviewer-ava--active {
     width: 60px;
@@ -1681,7 +1700,7 @@ main {
 
 .page-footer__copyrights {
   margin: 0;
-  padding: 14px 0 18px 0;
+  padding: 14px 16px 18px 16px;
   letter-spacing: 0;
   color: #333;
   text-align: center;
