@@ -400,9 +400,9 @@ main {
 }
 
 .logo__wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1133,10 +1133,10 @@ main {
     width: 225px;
     max-width: 100%;
     height: 400px;
-    -webkit-transition: -webkit-transform 0.1s ease;
-    transition: -webkit-transform 0.1s ease;
-    transition: transform 0.1s ease;
-    transition: transform 0.1s ease, -webkit-transform 0.1s ease;
+    -webkit-transition: -webkit-transform 0.2s ease;
+    transition: -webkit-transform 0.2s ease;
+    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, -webkit-transform 0.2s ease;
     -webkit-box-shadow: 0 9px 15px 0 rgba(0, 0, 0, 0.42);
             box-shadow: 0 9px 15px 0 rgba(0, 0, 0, 0.42);
   }
@@ -1280,7 +1280,7 @@ main {
   margin: 0;
   font-size: 26px;
   line-height: 30px;
-  max-width: 80%;
+  max-width: 85%;
 }
 
 .android-reviews__review-wrapper {
@@ -1345,7 +1345,7 @@ main {
 }
 
 .android-reviews__review-star:not(:last-child) {
-  margin-right: 5px;
+  margin-right: 4px;
 }
 
 .android-reviews__review-text {
@@ -1428,8 +1428,8 @@ main {
 }
 
 .android-reviews__reviewer-ava--mob {
-  width: 44px;
-  margin-right: 10px;
+  width: 46px;
+  margin-right: 7px;
 }
 
 @media (min-width: 1088px) {
@@ -1536,6 +1536,10 @@ main {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
   }
   .android-reviews__carousel-button {
     display: -webkit-box;
@@ -1557,6 +1561,7 @@ main {
     border-radius: 50px;
     opacity: 0.5;
     color: #fff;
+    font-size: 15px;
     font-weight: bold;
     -webkit-transition: opacity 0.2s ease;
     transition: opacity 0.2s ease;
@@ -1565,7 +1570,7 @@ main {
     width: 60px;
     height: 60px;
     opacity: 1;
-    font-size: 24px;
+    font-size: 30px;
   }
   .android-reviews__carousel-button:not(:last-child) {
     margin: 8px 0;
@@ -1651,6 +1656,10 @@ main {
   background-color: #fff;
   -webkit-transition: color 0.2s ease;
   transition: color 0.2s ease;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .download-now__link:hover, .download-now__link:focus {
@@ -1868,6 +1877,10 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .social__link:hover .social__icon {
