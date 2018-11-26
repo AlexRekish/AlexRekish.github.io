@@ -511,7 +511,7 @@ main {
 }
 
 .message__header {
-  display: block;
+  display: none;
   color: #111;
   margin: 0;
   padding: 0;
@@ -524,12 +524,23 @@ main {
   margin: 0;
 }
 
-.message__description--test {
-  padding-bottom: 5px;
+@media (min-width: 1088px) {
+  .message__header {
+    display: block;
+  }
+  .message__description--test {
+    padding-bottom: 5px;
+  }
 }
 
 .main-message {
-  padding: 0;
+  padding: 0 0 20px 0;
+}
+
+@media (min-width: 1088px) {
+  .main-message {
+    padding: 0;
+  }
 }
 
 .be-in-touch {
@@ -549,10 +560,14 @@ main {
 }
 
 .be-in-touch__title {
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 24px;
   margin: 0;
   padding: 20px 0 10px 0;
+}
+
+.be-in-touch__title--mob {
+  display: none;
 }
 
 .be-in-touch__app-link {
@@ -732,6 +747,9 @@ main {
     font-size: 20px;
     padding: 25px 0 15px 0;
     line-height: normal;
+  }
+  .be-in-touch__title--mob {
+    display: block;
   }
   .be-in-touch__form {
     padding: 20px 0 0 0;
